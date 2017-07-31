@@ -13,11 +13,11 @@ Review topics to cover
 - documentation quality, community, blog
 - forms, data binding, validation, debouncing
 - maintainable and reusable components, modals
-- ui routing
+- routing
 - single source of truth
 - performance
 - error discovery and debugging
-- styling (material / bootstrap)
+- styling capability
 - testability
 
 Frameworks / Ecosystems
@@ -34,8 +34,9 @@ Tasks
 
 1) Bootstrap project
 2) Display a list of 10'000 logs
-3) Allow to search though logs
-4) Add configuration page with labels definition
-5) Allow to define tabs with different logs retention and scope
-6) Allow to add bookmarks
+3) Allow to search through logs
+4) Add configuration page (labels, logs retention, source filter)
+5) Allow to define multiple tabs with separate configuration
+6) Allow to add bookmarks (scroll to bookmark)
 7) Stream logs to WebApp
+8) Export/import configuration
