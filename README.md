@@ -10,15 +10,15 @@ Review topics to cover
 
 - entry level
 - project scaffolding
-- documentation quality
-- community, blog
-- forms, data binding, debouncing
-- maintainable and reusable components
-- routing
+- documentation quality, community, blog
+- forms, data binding, validation, debouncing
+- maintainable and reusable components, modals
+- ui routing
 - single source of truth
 - performance
 - error discovery and debugging
 - styling (material / bootstrap)
+- testability
 
 Frameworks / Ecosystems
 -----------------------
