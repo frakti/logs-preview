@@ -27,6 +27,7 @@ Frameworks / Ecosystems
 - Angular 4
 - React 16
 - Ember
+- Aurelia
 
 Tasks
 -----
