@@ -12,13 +12,14 @@ Review topics to cover
 - project scaffolding
 - documentation quality, community, blog
 - forms, data binding, validation, debouncing
-- maintainable and reusable components, modals
+- maintainable and reusable components, modals, integration with other frameworks (i.e. D3)
 - routing
 - single source of truth
 - performance
 - error discovery and debugging
-- styling capability
+- styling capability, RWD
 - testability
+- i18n, accessibility
 
 Frameworks / Ecosystems
 -----------------------
