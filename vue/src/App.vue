@@ -32,7 +32,7 @@ export default {
   },
   filters: {
     time: (isoDate) => moment.utc(isoDate).format('HH:mm:ss.SSS'),
-    date: (isoDate) => moment.utc(isoDate).format('DDD MMMM YYYY')
+    date: (isoDate) => moment.utc(isoDate).format('D MMMM YYYY')
   }
 }
 </script>
