@@ -9,14 +9,31 @@
 </template>
 
 <script>
-import logs from '../../example-logs.json'
 import moment from 'moment'
+
+const ws = new WebSocket('ws://localhost:7654')
 
 export default {
   name: 'app',
+
   data () {
     return {
-      logs
+      logs: []
+    }
+  },
+  created () {
+    const self = this
+    ws.onmessage = (data) => {
+      const log = JSON.parse(data.data)
+
+      self.logs.unshift({
+        at: log.at,
+        message: log.log
+      })
+
+      if (self.logs.length > 100) {
+        self.logs.splice(100, 1)
+      }
     }
   },
   methods: {
